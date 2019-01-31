@@ -1,0 +1,108 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Font awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+html, body {
+  background-color: $white;
+  color: $theme-gray;
+  font-family: $font-family-sans-serif !important;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+//Colors
+.color-teal{
+  color: $teal;
+}
+.bg-teal{
+  background: $teal;
+}
+.bg-white{
+  background: $white;
+}
+.color-white{
+  background: $white;
+}
+
+//Styling
+.app-nav{
+  background: $theme-gold !important;
+  color: $white;
+
+  .nav-link, a{
+    color: $white !important;
+  }
+  .nav-link:hover, a:hover{
+    color: lighten($theme-green, 5%) !important;//darken($white, 15%) !important;
+  }
+  .nav-link:hover{
+    font-weight: bold;
+    padding-bottom: 2px !important;
+    letter-spacing: 2px;
+    text-decoration: underline;
+  }
+}
+main{
+  margin-top: 3.6em;
+  min-height: 79vh !important;
+}
+
+span.required{
+  color: $red !important;
+}
+span.help-block{
+  font-size: 12px;
+  font-style: italic;
+}
+
+.width-20{
+  width: 20% !important;
+}
+.width-30{
+  width: 30% !important;
+}
+.width-40{
+  width: 40% !important;
+}
+.width-50{
+  width: 50% !important;
+}
+.width-70{
+  width: 70% !important;
+}
+.bold{
+  font-weight: bold !important;
+}
+.text-underline{
+  text-decoration: underline !important;
+}
+.nowrap{
+  white-space: nowrap !important;
+
+}
+.persons-data{
+  .card{
+    width: 20em !important;
+  }
+}
+
+footer{
+  //position: relative;
+  width: 100%;
+  //bottom: 0;
+  background: darken($teal, 20%);
+  color: $white;
+}

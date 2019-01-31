@@ -5,7 +5,8 @@ Clone the repo and run composer install, to install dependencies
 
 Create a database "webdev_test"
 
-Configure application connection details in the .env file i.e 
+Configure application connection details in the .env file i.e
+ 
     1. Database url
     2. Username
     3. Password

@@ -35,7 +35,7 @@ class PersonsController extends Controller
 
         $person = Person::create($data);
 
-        //Peron's Attributes
+        //Person's Attributes
         $attribute_names = $request->attribute_name;
         $attribute_values = $request->attribute_value;
 

@@ -14,7 +14,7 @@ Configure application connection details in the .env file i.e
 
 Run php artisan migrate
 
-Run php artisan service
+Run php artisan serve
 
 Access the project in browser usually: http://127.0.0.1:8000
 

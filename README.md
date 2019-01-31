@@ -8,8 +8,9 @@ Create a database "webdev_test"
 Configure application connection details in the .env file i.e
  
     1. Database url
-    2. Username
-    3. Password
+    2. Database Name
+    3. Username
+    4. Password
     
 
 Run php artisan migrate
